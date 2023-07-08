@@ -6,6 +6,10 @@
     <title>Daryna's Digital Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -36,6 +40,39 @@
         </div>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Daryna Bulana</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <i
+            class="icon fa fa-linkedin i-linkedin"
+            aria-hidden="true"
+            onclick="location.href='https://www.linkedin.com/in/daryna-bulana-ca/'"
+          ></i>
+          <i
+            class="icon fa fa-github i-github"
+            aria-hidden="true"
+            onclick="location.href='https://github.com/Dalisaca'"
+          ></i>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
