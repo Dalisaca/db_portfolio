@@ -498,3 +498,61 @@ article .icon {
 }
 
 /*CONTACT SECTION*/
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 95vh;
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: #021e20;
+  background: #f3f3fb;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin: 1rem;
+}
+.contact-info-container i {
+  cursor: default;
+}
+.contact-icon {
+  font-size: 2rem !important;
+}
+/*FOOTER SECTION*/
+footer {
+  height: 7vh;
+  margin: 0 1rem;
+}
+footer p {
+  text-align: center;
+}
+.contact-info-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: rgba(1, 11, 12, 0.8) 0.1rem solid;
+  border-radius: 2rem;
+}
+.text-me-container {
+  width: 450px;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group {
+}
