@@ -42,18 +42,18 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="" />
+        <img src="./assets/profile-pic.png" alt="Pic Profile" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Daryna Bulana</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="titleName">Daryna Bulana</h1>
+        <p class="section__text__p2">Jr Frontend Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/Resume-DarynaBulana.pdf')"
           >
-            Download CV
+            Download Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -61,18 +61,81 @@
         </div>
         <div id="socials-container">
           <i
-            class="icon fa fa-linkedin i-linkedin"
+            class="icon i-linkedin fa fa-linkedin"
             aria-hidden="true"
             onclick="location.href='https://www.linkedin.com/in/daryna-bulana-ca/'"
           ></i>
           <i
-            class="icon fa fa-github i-github"
+            class="icon i-github fa fa-github"
             aria-hidden="true"
             onclick="location.href='https://github.com/Dalisaca'"
           ></i>
         </div>
       </div>
+        <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#about'"></i>
+      
     </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__about-pic-container section__pic-container">
+          <img src="./assets/about-pic.jpg" alt="Pic About" class="about-pic" />
+        </div>
+        <div class="about-details-container reveal">
+          <div class="about-containers">
+            <div class="details-container">
+              <i class="icon-about fa fa-smile-o" aria-hidden="true"></i>
+              <p><span class="changeToGreen">Front-End Web Developer</span> by day, conqueror of lakes by weekend! </p>
+            </div>
+            <div class="details-container">
+              <i class="icon-about fa fa-globe" aria-hidden="true"></i>
+              <p>Nestled in the heart of <span class="changeToGreen">Milton, Ontario</span>, but originally from Ukraine</br></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="row">
+              <div class="col-6 personal-info">
+                  <ul class="list-unstyled">
+                      <li>
+                          <p><b>Languages :</b> English, Russian &amp; Ukrainian</p>
+                      </li>
+                      <li>
+                          <p><b>Hobbies :</b> Kayaking &amp; Travelling</p>
+                      </li>
+                      <li>
+                        <p><b>Favorite Movie :</b> Alien</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-6 personal-info">
+                  <ul class="list-unstyled"> 
+                      <li>
+                          <p><b>Best Meal :</b> <span data-tooltip="Ukrainian National Food" class="data-tooltip">Borscht</span> &amp; Oatmeal</p>
+                      </li>
+                      <li>
+                          <p><b>Preferred Beverages :</b> Matcha &amp; Bubble Tea</span></p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#experience'"></i>
+    </section>
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-containers">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container"></div>
+      </div>
+    </div>
+  </div>
+</section>
     <script src="script.js"></script>
   </body>
 </html>
