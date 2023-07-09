@@ -4,7 +4,6 @@ function toggleMenu() {
   menu.classList.toggle('open');
   icon.classList.toggle('open');
 }
-
 /*SCROLL ANIMATION*/
 function reveal() {
   var reveals = document.querySelectorAll('.reveal');

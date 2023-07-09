@@ -38,7 +38,7 @@ a,
   font-size: 1.7rem;
 }
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 nav,
 .nav-links {
@@ -50,7 +50,7 @@ nav {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  height: 9vh;
+  height: 8vh;
   background: #f3f3fb; /* Set background color to white */
   z-index: 100; /* Set a higher z-index value */
 }
@@ -120,7 +120,7 @@ a:hover {
 }
 .menu-links a:hover {
   color: #b99274;
-  zoom: 1.05;
+  transform: scale(110%);
   transition: all 0.3s ease;
 }
 .menu-links li {
@@ -150,8 +150,8 @@ a:hover {
 
 /*SECTIONS*/
 section {
-  padding-top: 6vh;
-  height: 94vh;
+  padding-top: 8vh;
+  height: 92vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -251,6 +251,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: #021e20 0.1rem solid;
+  border-radius: 2rem;
 }
 .btn-color-1:hover,
 .btn-color-2:hover {
@@ -303,7 +304,7 @@ section {
   position: absolute;
   font-size: 2.5rem !important;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 2rem;
 }
 .arrow:hover {
   color: #b99274;
@@ -354,8 +355,6 @@ section {
 
 .col-6 {
   flex-basis: 50%;
-}
-.personal-info p {
 }
 
 /*TOOLTIP*/
@@ -442,7 +441,7 @@ section {
   color: rgba(2, 30, 32, 0.9);
   font-weight: 700;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .experience-details-container {
   display: flex;
@@ -467,3 +466,35 @@ article .icon {
   cursor: default;
   font-size: 1.5rem !important;
 }
+/*PROJECTS*/
+#projects {
+  position: relative;
+}
+.project-title {
+  margin: 1rem;
+}
+.project-btn {
+  font-weight: 600;
+  font-size: 0.7rem;
+  transition: all 300ms ease;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: #021e20 0.1rem solid;
+  border-radius: 2rem;
+}
+.project-btn:hover {
+  background: #8a9b6e;
+  color: #f3f3fb;
+  box-shadow: inset 200px 0 0 0 #021e20;
+  transition: all 0.7s ease;
+}
+.color-container {
+  border-color: #021e20;
+  background-color: #f3f3fb;
+}
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+/*CONTACT SECTION*/
