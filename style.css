@@ -175,6 +175,17 @@ section {
   width: 420px;
   margin: auto 0;
 }
+.section__pic-container {
+  position: relative;
+}
+
+/* .changePicToGif:hover {
+  content: url('./assets/123.gif');
+  border-radius: 50%;
+  margin: auto;
+  width: 390px;
+  height: 390px;
+} */
 .section__text {
   align-self: center;
   text-align: center;
@@ -528,6 +539,64 @@ article .icon {
 .contact-icon {
   font-size: 2rem !important;
 }
+.contact-info-down-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.text-me-container {
+  width: 28rem;
+  height: 25rem;
+  border: rgba(1, 11, 12, 0.8) 0.1rem solid;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-group {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgba(1, 11, 12, 0.8) 0.1rem solid;
+  border-radius: 1rem;
+}
+#name,
+#email,
+#message {
+  width: 24rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  background-color: rgba(160, 158, 158, 0.2);
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#message {
+  max-width: 24rem;
+  min-width: 24rem;
+  min-height: 2.2rem;
+  max-height: 8rem;
+}
+.submit-btn {
+  font-size: 1.1rem;
+}
+::placeholder {
+  color: rgba(160, 158, 158, 0.6);
+}
 /*FOOTER SECTION*/
 footer {
   height: 7vh;
@@ -535,24 +604,4 @@ footer {
 }
 footer p {
   text-align: center;
-}
-.contact-info-down-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  border: rgba(1, 11, 12, 0.8) 0.1rem solid;
-  border-radius: 2rem;
-}
-.text-me-container {
-  width: 450px;
-  height: 400px;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.form-group {
 }

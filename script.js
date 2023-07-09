@@ -22,3 +22,33 @@ function reveal() {
 }
 
 window.addEventListener('scroll', reveal);
+
+/*EMAILJS*/
+function sendEmail() {
+  const params = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+
+  emailjs
+    .send('service_t819w6j', 'template_o5x09bf', params)
+    .then((response) => {
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('message').value = '';
+    })
+    .catch((error) => {
+      console.log('Email sending failed:', error);
+    });
+}
+
+/*ENTER SUBMIT*/
+// var input = document.querySelector('.form-group');
+
+// input.addEventListener('keypress', function (event) {
+//   if (event.key === 'Enter') {
+//     event.preventDefault();
+//     document.querySelector('.submit-btn').click();
+//   }
+// });

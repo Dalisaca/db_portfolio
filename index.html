@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daryna's Digital Portfolio</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link
@@ -11,6 +12,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("d1o6u2O8s5z0iIuqc");
+})();
+</script>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -43,7 +52,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Pic Profile" />
+        <img src="./assets/profile-pic.png" alt="Pic Profile" class="changePicToGif"/>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -126,7 +135,7 @@
       <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#experience'"></i>
     </section>
 <section id="experience">
-  <p class="section__text__p1">Explore My</p>
+  <p class="section__text__p1">Investigate My</p>
   <h1 class="title">Experience</h1>
   <div class="experience-details-container reveal">
     <div class="about-containers">
@@ -208,7 +217,7 @@
   <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#projects'"></i>
 </section>
 <section id="projects">
-  <p class="section__text__p1">Browse My Recent</p>
+  <p class="section__text__p1">Dive Into My Recent</p>
   <h1 class="title">Projects</h1>
   <div class="experience-details-container reveal">
     <div class="about-containers">
@@ -234,17 +243,47 @@
       <div class="btn-container"><button class="btn-color-2 project-btn" onclick="location.href='https://github.com'">GitHub</button></div>
     </div></div>
   </div>
-  <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#cotact'"></i>
+  <i class="icon arrow fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#contact'"></i>
 </section>
 <section id="contact">
-  <p class="section__text__p1">Get In Touch</p>
+  <p class="section__text__p1">Reach Out</p>
   <h1 class="title">Contact Me</h1>
-  <div class="contact-info-upper-container">
+  <!-- <div class="contact-info-upper-container">
     <div class="contact-info-container">
-      <img src="./assets/email.png" alt="" class="icon contact-icon">
+      <i class="icon contact-icon fa fa-envelope" aria-hidden="true"></i>
+      <p class="link-to-email"><a href="mailto:daryna.bulana.it@gmail.com">daryna.bulana.it@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <i class="icon contact-icon devicon-linkedin-plain"></i>
+      <p class="link-to-linkedin"><a href="https://www.linkedin.com/in/daryna-bulana-ca/">LinkedIn</a></p>
+  </div> -->
+  </div>
+  <div class="contact-info-down-container reveal"> 
+    <div class="text-me-container">
+      <div class="form-group">
+        <div>
+          <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div>
+          <input type="email" id="email" placeholder="Your Email">
+        </div>
+        <div>
+          <textarea id="message" placeholder="Your Message" rows="3"></textarea>
+        </div>
+        
+        <div class="button">
+          <button type="submit" onclick="sendEmail()" class="btn-color-2 project-btn submit-btn">Submit</button>
+        </div>
     </div>
   </div>
-</section>
+    <div class="map-container" style="width: 450px; height: 400px;">    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185152.54823555256!2d-80.10724471502117!3d43.52301409110055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6fa34a2371d5%3A0x60f4dd8775707432!2sMilton%2C%20ON!5e0!3m2!1sen!2sca!4v1688927609969!5m2!1sen!2sca" width="420" height="370" style="border:0; border-radius: 2rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
+</div>
+  </section>
+<footer><p>Copyright &#169; 2023 Daryna Bulana</p>
+</footer>
     <script src="script.js"></script>
   </body>
 </html>
+
+
