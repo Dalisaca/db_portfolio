@@ -304,7 +304,6 @@ section {
   width: 500px;
   height: 400px;
   margin: auto 0;
-  margin: auto 0;
 }
 .about-pic {
   width: 500px;
@@ -510,10 +509,10 @@ article .icon {
 
 /*CONTACT SECTION*/
 #contact {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 95vh;
 }
 .contact-info-upper-container {
   display: flex;

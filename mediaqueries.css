@@ -3,6 +3,11 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
+  #contact,
+  #about {
+    position: relative;
+    height: fit-content !important;
+  }
   .about-containers {
     flex-wrap: wrap;
   }
@@ -22,6 +27,7 @@
   #profile,
   .section-container {
     display: block;
+    margin-bottom: 4rem;
   }
   .arrow {
     display: none !important;
@@ -46,6 +52,13 @@
   }
   .contact-info-down-container {
     flex-direction: column;
+  }
+  .section__about-pic-container {
+    width: 525px;
+    height: 375px;
+  }
+  .about-pic {
+    width: 100%;
   }
 }
 
@@ -72,10 +85,9 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-down-container {
-  }
+
   iframe {
-    width: 290px !important;
+    width: 300px !important;
   }
   .contact-info-container {
     margin: 0;
@@ -108,5 +120,19 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .section__about-pic-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .about-pic {
+    width: 100%;
+  }
+  #name,
+  #email,
+  #message {
+    max-width: 250px !important;
+    min-width: 250px !important;
   }
 }
