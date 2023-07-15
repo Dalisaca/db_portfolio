@@ -125,6 +125,7 @@ a:hover {
 }
 .menu-links li {
   list-style: none;
+  transition: all 0.4s ease-out;
 }
 .menu-links.open {
   min-height: 100vh;
@@ -133,24 +134,31 @@ a:hover {
   padding: 0.7rem;
   width: 150px;
   opacity: 0.9;
+  transition: all 0.7s ease;
 }
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
+  transition: all 0.4s ease-out;
 }
 .hamburger-icon.open span:nth-last-child(2) {
   opacity: 0;
+  transition: all 0.4s ease-out;
 }
 .hamburger-icon.open span:last-child {
   transform: rotate(135deg) translate(-10px, 5px);
+  transition: all 0.4s ease-out;
 }
 .hamburger-icon span:first-child {
   transform: none;
+  transition: all 0.4s ease-out;
 }
 .hamburger-icon span:first-child {
   opacity: 1;
+  transition: all 0.4s ease-out;
 }
 .hamburger-icon span:first-child {
   transform: none;
+  transition: all 0.4s ease-out;
 }
 
 /*SECTIONS*/
