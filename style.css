@@ -127,7 +127,12 @@ a:hover {
   list-style: none;
 }
 .menu-links.open {
-  max-height: 300px;
+  min-height: 100vh;
+  max-height: 100vh;
+  border-radius: 0.6rem;
+  padding: 0.7rem;
+  width: 150px;
+  opacity: 0.9;
 }
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
