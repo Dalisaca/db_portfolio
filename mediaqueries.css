@@ -24,6 +24,9 @@
   .experience-details-container {
     margin-top: 2rem;
   }
+  #profile {
+    margin-top: 7vh;
+  }
   #profile,
   .section-container {
     display: block;
@@ -71,6 +74,7 @@
   }
   #profile {
     height: 83vh;
+    margin-top: 7vh;
     margin-bottom: 0;
   }
   article {
