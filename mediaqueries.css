@@ -136,7 +136,7 @@
   #name,
   #email,
   #message {
-    max-width: 250px !important;
-    min-width: 250px !important;
+    max-width: 210px !important;
+    min-width: 210px !important;
   }
 }
