@@ -70,6 +70,11 @@
       padding: 0rem !important;
     }
   }
+  iframe {
+    width: 25rem !important;
+    max-width: 25rem !important;
+    margin: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -98,7 +103,9 @@
   }
 
   iframe {
-    width: 17rem !important;
+    width: 15rem !important;
+    max-width: 17rem !important;
+    margin: 1.1rem;
   }
   .contact-info-container {
     margin: 0;
