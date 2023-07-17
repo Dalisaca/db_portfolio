@@ -185,6 +185,7 @@ section {
   min-height: fit-content;
   position: relative; /* Add position relative to sections */
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .section-container {
