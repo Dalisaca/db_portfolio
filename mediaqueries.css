@@ -20,7 +20,7 @@
   #hamburger-nav {
     display: flex;
     justify-content: space-around;
-    max-width: 90vw;
+    max-width: 100vw;
   }
   #experience,
   .experience-details-container {
