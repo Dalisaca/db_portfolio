@@ -563,9 +563,6 @@ article .icon {
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 2rem;
-  .details-container {
-    padding: 0rem !important;
-  }
 }
 .text-me-container {
   width: 27rem;

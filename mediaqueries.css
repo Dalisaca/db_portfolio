@@ -65,6 +65,11 @@
   .about-pic {
     width: 100%;
   }
+  .contact-info-down-container {
+    .details-container {
+      padding: 0rem !important;
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -140,5 +145,10 @@
   #message {
     max-width: 210px !important;
     min-width: 210px !important;
+  }
+  .contact-info-down-container {
+    .details-container {
+      padding: 0rem !important;
+    }
   }
 }
