@@ -176,4 +176,7 @@
   .row {
     gap: 1.5rem;
   }
+  .row > p {
+    font-size: 0.9rem;
+  }
 }
