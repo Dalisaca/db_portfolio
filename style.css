@@ -397,7 +397,7 @@ section {
 }
 .row {
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .col-6 {

@@ -173,4 +173,7 @@
   .details-container > p {
     font-size: 0.9rem;
   }
+  .row {
+    gap: 1.5rem;
+  }
 }
