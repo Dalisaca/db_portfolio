@@ -613,6 +613,9 @@ article .icon {
 ::placeholder {
   color: rgba(160, 158, 158, 0.6);
 }
+.about-container {
+  border: red 2px solid;
+}
 /*FOOTER SECTION*/
 footer {
   height: 7vh;
