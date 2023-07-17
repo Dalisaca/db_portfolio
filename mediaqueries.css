@@ -137,7 +137,7 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    text-align: left;
   }
   .section__about-pic-container {
     width: 100%;
@@ -157,5 +157,8 @@
     .details-container {
       padding: 0rem !important;
     }
+  }
+  .details-container > p {
+    font-size: 0.9rem;
   }
 }

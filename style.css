@@ -327,6 +327,9 @@ section {
   object-fit: cover;
   border-radius: 2rem;
 }
+.about-word-categories {
+  text-align: left;
+}
 .arrow {
   position: absolute;
   font-size: 2.5rem !important;
