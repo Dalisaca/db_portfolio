@@ -143,13 +143,16 @@ a:hover {
   transition: all 0.4s ease-out;
 }
 .menu-links.open {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 30vh;
+  max-height: 50vh;
   border-radius: 0.6rem;
   padding: 0.7rem;
+  margin-top: 0.5rem;
+  margin-right: -0.7rem;
   width: 150px;
   opacity: 0.9;
   transition: all 0.7s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
@@ -540,8 +543,10 @@ article .icon {
 }
 .project-img {
   border-radius: 2rem;
+  margin: 1rem;
   width: 90%;
   max-height: 250px;
+  object-fit: cover;
 }
 
 /*CONTACT SECTION*/
@@ -620,6 +625,7 @@ article .icon {
   border-radius: 0.4rem;
   padding: 0.8rem;
   font-family: 'Montserrat', sans-serif;
+  caret-color: #8a9b6e;
 }
 #message {
   max-width: 24rem;
