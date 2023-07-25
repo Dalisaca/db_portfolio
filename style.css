@@ -9,13 +9,13 @@ TEXT NAV - #021e20
 
 /* SCROLL BAR */
 body::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 7px; /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #b99274; /* color of the scroll thumb */
-  border-radius: 12px; /* roundness of the scroll thumb */
-  border: 2px solid #c8a48b; /* creates padding around scroll thumb */
+  border-radius: 12px;
+  border: 2px solid #b99274; /* creates padding around scroll thumb */
 }
 
 /*GENERAL*/
