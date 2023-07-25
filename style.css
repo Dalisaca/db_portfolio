@@ -487,8 +487,8 @@ section {
 .experience-sub-title {
   color: rgba(2, 30, 32, 0.9);
   font-weight: 700;
-  font-size: 1.75rem;
-  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.7rem;
 }
 .experience-details-container {
   display: flex;
@@ -541,7 +541,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  max-height: 300px;
+  max-height: 250px;
 }
 
 /*CONTACT SECTION*/
