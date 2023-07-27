@@ -52,3 +52,31 @@ function sendEmail() {
 //     document.querySelector('.submit-btn').click();
 //   }
 // });
+
+/*COURSOR CIRCLE*/
+document.addEventListener('DOMContentLoaded', function () {
+  const cursorCircle = document.querySelector('.cursor-circle');
+
+  document.addEventListener('mousemove', function (event) {
+    // Update the position of the circle to match the cursor position
+    cursorCircle.style.left =
+      event.clientX - cursorCircle.offsetWidth / 1 + 'px';
+    cursorCircle.style.top =
+      event.clientY - cursorCircle.offsetHeight / 1 + 'px';
+  });
+
+  // Show the circle when the mouse is moved
+  document.addEventListener('mouseover', function () {
+    cursorCircle.style.display = 'block';
+  });
+
+  // Hide the circle when the mouse is not moving
+  document.addEventListener('mouseout', function () {
+    cursorCircle.style.display = 'none';
+  });
+
+  // Hide the circle when the mouse hovers over the map container
+  mapContainer.addEventListener('mouseover', function () {
+    cursorCircle.style.display = 'none';
+  });
+});

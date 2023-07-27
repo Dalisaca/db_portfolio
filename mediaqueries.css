@@ -27,12 +27,12 @@
     font-size: 1.8rem;
   }
   .about-pic {
-    width: 850px;
+    width: 700px;
   }
   .section__about-pic-container,
   .section__pic-container {
-    width: 850px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
     display: flex;
     justify-content: center;
   }
@@ -111,7 +111,7 @@
     margin-bottom: 3.5rem;
   }
   .project-img {
-    max-height: 350px;
+    max-height: 330px;
   }
 }
 
@@ -120,7 +120,6 @@
     display: block;
   }
 }
-
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -133,6 +132,69 @@
   }
   .about-containers {
     flex-wrap: wrap;
+  }
+  .form-group {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  /* Removed invalid nesting here */
+  .contact-info-down-container .details-container {
+    width: 100%;
+    margin: 0;
+  }
+  #email,
+  #name {
+    width: 16rem;
+    margin: 0;
+  }
+  #message {
+    max-width: 36rem !important;
+    min-width: 36rem !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  #contact,
+  #about {
+    position: relative;
+    height: fit-content !important;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  .form-group {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .contact-info-down-container {
+    .details-container {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  #email,
+  #name {
+    width: 10rem;
+    margin: 0;
+  }
+  #message {
+    max-width: 36rem !important;
+    min-width: 36rem !important;
   }
 }
 
@@ -222,6 +284,13 @@
   #message {
     max-width: 44rem !important;
     min-width: 44rem !important;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  #message {
+    max-width: 20rem !important;
+    min-width: 20rem !important;
   }
 }
 
