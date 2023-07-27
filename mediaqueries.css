@@ -1,6 +1,117 @@
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1850px) {
   .list-unstyled {
     display: block;
+  }
+  .titleName {
+    font-size: 5.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .section__text__p2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+  .section__text__p1 {
+    font-size: 2.2rem;
+  }
+  #about,
+  #experience,
+  #projects,
+  #contact {
+    padding-top: 7rem;
+  }
+  .title {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  .about-pic {
+    width: 850px;
+  }
+  .section__about-pic-container,
+  .section__pic-container {
+    width: 850px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-containers > .details-container {
+    padding: 3rem;
+  }
+  article {
+    width: 15rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-start;
+  }
+  .experience-sub-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  article .icon {
+    font-size: 2rem !important;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .nav-links {
+    gap: 3rem;
+    font-size: 2.3rem;
+  }
+  .logo {
+    font-size: 3.4rem;
+  }
+  .list-unstyled > li > p {
+    margin-bottom: 2rem;
+    line-height: 140%;
+  }
+  .section-container {
+    gap: 6rem;
+  }
+  .about-containers {
+    gap: 3rem;
+  }
+  .i-linkedin,
+  .i-github {
+    font-size: 4rem !important;
+    padding: 15px;
+    width: 3rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+    width: 19rem;
+    padding: 1.2rem 1.8rem 1.2rem 1.8rem;
+  }
+  #socials-container {
+    margin-top: 2.1rem;
+  }
+  .details-container > i {
+    font-size: 3.2rem !important;
+    margin-bottom: 1.5rem;
+  }
+  .text-container {
+    margin-top: 2rem;
+  }
+  .experience-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-contact-container {
+    display: flex;
+    justify-content: center;
+  }
+  .project-btn {
+    font-size: 1.6rem;
+    /*max-width: 11rem;*/
+    padding: 1rem 1.9rem 1rem 1.9rem;
+  }
+  .definition-project {
+    font-size: 1.8rem !important;
+    margin-bottom: 3.5rem;
+  }
+  .project-img {
+    max-height: 350px;
   }
 }
 
@@ -87,6 +198,31 @@
     max-width: 25rem !important;
     margin: 1.1rem;
   }
+  .form-group {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 0;
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .contact-info-down-container {
+    .details-container {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  #email,
+  #name {
+    width: 20rem;
+    margin: 0;
+  }
+  #message {
+    max-width: 44rem !important;
+    min-width: 44rem !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -162,8 +298,8 @@
   #name,
   #email,
   #message {
-    max-width: 210px !important;
-    min-width: 210px !important;
+    max-width: 290px !important;
+    min-width: 290px !important;
   }
   .form-group {
     width: 90%;
@@ -190,7 +326,7 @@
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
   iframe {
     width: 14rem !important;
     max-width: 15rem !important;
@@ -198,8 +334,8 @@
   #name,
   #email,
   #message {
-    max-width: 180px !important;
-    min-width: 180px !important;
+    max-width: 190px !important;
+    min-width: 190px !important;
   }
   .form-group {
     width: 90%;
@@ -215,5 +351,35 @@
   .contact-info-down-container {
     padding: 0;
     margin: 0.5rem;
+  }
+  .titleName {
+    font-size: 2.3rem;
+  }
+  .section__text__p2 {
+    font-size: 1.1rem;
+  }
+  .section__text__p1 {
+    font-size: 0.9rem;
+  }
+  .btn-container > .btn-color-1 {
+    font-size: 0.6rem;
+    width: 7.5rem;
+  }
+  .btn-container {
+    margin-top: 2rem !important;
+  }
+  .section__pic-container {
+    margin-bottom: 3rem;
+  }
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+  }
+  .about-pic {
+    width: auto;
+    margin: 0.8rem;
+  }
+  .details-container > .form-group > .button {
+    margin-top: 1.4rem;
   }
 }

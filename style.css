@@ -635,6 +635,7 @@ article .icon {
 }
 .submit-btn {
   font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 ::placeholder {
   color: rgba(160, 158, 158, 0.6);
