@@ -165,10 +165,20 @@
     max-width: 210px !important;
     min-width: 210px !important;
   }
+  .form-group {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 0;
+  }
   .contact-info-down-container {
     .details-container {
-      padding: 0rem !important;
+      width: 100%;
+      margin: 0;
     }
+  }
+  .contact-info-down-container {
+    padding: 0;
+    margin: 0.5rem;
   }
   .details-container > p {
     font-size: 0.9rem;
@@ -178,5 +188,32 @@
   }
   .row > p {
     font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  iframe {
+    width: 14rem !important;
+    max-width: 15rem !important;
+  }
+  #name,
+  #email,
+  #message {
+    max-width: 180px !important;
+    min-width: 180px !important;
+  }
+  .form-group {
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem 0;
+  }
+  .contact-info-down-container {
+    .details-container {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .contact-info-down-container {
+    padding: 0;
+    margin: 0.5rem;
   }
 }
